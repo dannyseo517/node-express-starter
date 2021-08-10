@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "priority": "low",
+    "linked_issues": [
+      {
+        "id": 250,
+        "priority": "low",
+        "linked_issues": [
+          {
+            "id": 520,
+            "priority": "low"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "priority": "low",
+    "linked_issues": [
+      {
+        "id": 255,
+        "priority": "low",
+        "linked_issues": [
+          {
+            "id": 525,
+            "priority": "high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "priority": "low",
+    "linked_issues": [
+      {
+        "id": 255,
+        "priority": "low",
+        "linked_issues": [
+          {
+            "id": 525,
+            "priority": "high"
+          }
+        ],
+        "id": 256,
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "priority": "low",
+    "linked_issues": [
+      {
+        "id": 333,
+        "priority": "low",
+        "linked_issues": [
+          {
+            "id": 334,
+            "priority": "low"
+          }
+        ],
+        "id": 335,
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "priority": "low",
+    "linked_issues": [
+      {
+        "id": 444,
+        "priority": "low",
+        "linked_issues": [
+          {
+            "id": 445,
+            "priority": "medium",
+            "linked_issues": [
+              {
+                "id": 4444,
+                "priority": "low",
+                "linked_issues": [
+                  {
+                    "id": 4446,
+                    "priority": "medium",
+                    "linked_issues": [
+                      {
+                        "id": 4447,
+                        "priority": "high"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "id": 446,
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "priority": "high",
+    "linked_issues": [
+      {
+        "id": 444,
+        "priority": "low",
+        "linked_issues": [
+          {
+            "id": 445,
+            "priority": "medium"
+          }
+        ],
+        "id": 446,
+        "priority": "medium"
+      }
+    ]
+  }
+]
